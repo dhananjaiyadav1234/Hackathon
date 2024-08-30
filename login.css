@@ -1,0 +1,64 @@
+body{
+    font-family: "Sevillana";
+    margin-top: 250px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebdbc2;
+    background-image: ;
+  }
+  /*.bg{
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }*/
+  .Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px  #bfae9f;
+  }
+  
+  
+  .montserratuniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  
+  h2,label{
+    font-weight: bold;
+    color: black;
+  }
+  .int{
+    margin-top:  10px;
+    margin-bottom: 10px;
+  }
+  
+  a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+  }
+
+
+
+  .password,.email{
+
+    border-radius: 5px;
+    border: none;
+
+
+
+  }
