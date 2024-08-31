@@ -7,7 +7,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #ebdbc2;
-    background-image: ;
+    background-image: url(bgl2.png) ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
   }
   /*.bg{
       height: 100%;
@@ -19,20 +26,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    width: 350px;
+    height: 350px;
+    width: 450px;
     border: none;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px  #bfae9f;
+    box-shadow: 10px 10px 10px 10px  #462f1a;
+    background-color: rgba(67%,58%,38%,0.4);
+    backdrop-filter: blur(100px);
+    
   }
+ 
   
-  
-  .montserratuniquifier {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
     font-style: normal;
   }
+  
   
   
   h2,label{
@@ -48,7 +58,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 10px;
-    margin-left: 90px;
+    margin-left: 60px;
     cursor: pointer;
   }
 
@@ -58,7 +68,32 @@ body{
 
     border-radius: 5px;
     border: none;
+    padding: 10px;
+    background-color: #ebdbc2b9;
+   }
+
+.Forget:hover{
+ color:green;
 
 
 
+}
+
+
+
+
+
+  label{
+
+    font-size: 25px;
   }
+
+  .logbtn{
+    padding: 5px 10px;
+  }
+  .logbtn:hover{
+    background-color: #ebdbc2;
+  }
+
+  
+  
